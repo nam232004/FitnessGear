@@ -1,0 +1,13 @@
+.tab {
+    color: black ; 
+    text-decoration: none; 
+    padding: 10px;
+    display: inline-block; 
+}
+
+.tab.active {
+    color: black;
+}
+.tab.actived {
+    color: #7fad39 !important;
+}

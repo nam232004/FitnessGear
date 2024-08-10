@@ -1,0 +1,40 @@
+.text-shadow {
+    text-shadow: 4px 4px 4px rgb(87, 24, 19);
+}
+
+.primary-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.custom_btn{
+    border: none;
+}
+.btnToCart {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    border-radius: 10%;
+    background-color: #7fad39;
+    cursor: pointer;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.btnToCart:hover {
+    background-color: #86be31;
+    color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btnToCart i {
+    transition: transform 1s;
+}
+
+.btnToCart:hover i {
+    transform: rotate(360deg);
+}

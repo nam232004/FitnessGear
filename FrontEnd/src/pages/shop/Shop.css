@@ -1,0 +1,77 @@
+.custom-link:hover {
+  text-decoration: underline 1px solid #7fad39;
+}
+
+.custom-radio {
+  --radio-color: #7fad39;
+}
+
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.custom-radio input[type="radio"]+label {
+  padding-left: 25px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.custom-radio input[type="radio"]+label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--radio-color);
+  border-radius: 50%;
+  transition: border-color 0.3s ease;
+}
+
+.custom-radio input[type="radio"]:checked+label:before {
+  background-color: var(--radio-color);
+}
+
+.text-shadow {
+  text-shadow: 4px 4px 4px rgb(87, 24, 19);
+}
+
+/* Shop.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  display: block;
+  padding: 10px 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s !important;
+}
+
+.page-link:hover {
+  background-color: #e9ecef;
+  color: #0056b3 !important;
+}
+
+.active .page-link {
+  background-color:  #7fad39 !important;
+  color: #fff;
+  border-color: #81ca15 !important;
+}
+
+.disabled .page-link {
+  color: #6c757d !important;
+  cursor: not-allowed;
+}

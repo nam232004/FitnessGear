@@ -1,0 +1,12 @@
+.MuiSnackbarContent-root {
+    background-color: #7fad39;
+    color: #fff;
+}
+
+.MuiSnackbarContent-action {
+    color: #fff;
+}
+
+.MuiSnackbarContent-welcome {
+    background-color: #673ab7 !important;
+}

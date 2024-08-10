@@ -1,0 +1,59 @@
+.header.active {
+    color: #7fad39;
+}
+
+.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.hm_custom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hm_custom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.hm_custom li {
+    position: relative;
+}
+
+.hm_custom .fa {
+    font-size: 1.5rem;
+    color: #67971f;
+}
+
+.ct_dd {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #f8f8f8 !important;
+    border: #333 !important;
+    padding: 10px;
+    z-index: 999;
+}
+
+.hm_custom li:hover .ct_dd {
+    display: block;
+}
+
+.ct_dd a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.ct_dd a:hover {
+    background-color: #dbd0d0;
+}
